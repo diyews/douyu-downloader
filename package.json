@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Download douyu.com record and live.",
   "bin": {
-    "douyu-downloader": "dist/main.js"
+    "douyu-downloader": "dist/cli.js"
   },
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
     "start": "ts-node src/main.ts https://v.douyu.com/show/yVmjvBZQO3RvqkNb -d ./ts",
     "debug": "node --inspect-brk -r ts-node/register src/main.ts https://v.douyu.com/show/aRbBv3pDDVm76PYV",
