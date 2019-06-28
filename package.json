@@ -1,0 +1,38 @@
+{
+  "name": "douyu-downloader",
+  "version": "1.0.0",
+  "description": "Download douyu.com record and live.",
+  "bin": {
+    "douyu-downloader": "dist/main.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/main.ts https://v.douyu.com/show/yVmjvBZQO3RvqkNb -d ./ts",
+    "debug": "node --inspect-brk -r ts-node/register src/main.ts https://v.douyu.com/show/aRbBv3pDDVm76PYV",
+    "start:watch": "nodemon",
+    "start:watch-debug": "nodemon --exec \"npm run debug\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "douyu",
+    "diyews"
+  ],
+  "author": "diyews",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^12.0.8",
+    "@types/request": "^2.48.1",
+    "@types/yargs": "^13.0.0",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.17.0",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "request": "^2.88.0",
+    "vm2": "^3.8.2",
+    "yargs": "^13.2.4"
+  }
+}
