@@ -8,7 +8,7 @@
 
    `npm i douyu-downloader -g`
   
-2. Thrid party:
+2. Third party:
 
    FFmpeg is required. Download for your platform [here](https://ffmpeg.org/download.html). After downloaded, set environment variable `%FFMPEG_PATH%` that the directory includes `ffmpeg.exe`.
 
