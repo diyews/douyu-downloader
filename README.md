@@ -9,9 +9,9 @@
 ## Usage
 `douyu-dwonloader url [--options]`
 
-eg: download video that url is `https://v.douyu.com/show/0Q8mMY0Vd2e749Ad`
+eg: download video that url is `https://v.douyu.com/show/X3JzMaJ6lzGWPQro`
 
-`douyu-downloader https://v.douyu.com/show/0Q8mMY0Vd2e749Ad`
+`douyu-downloader https://v.douyu.com/show/X3JzMaJ6lzGWPQro`
 
 ## Options
 ```
