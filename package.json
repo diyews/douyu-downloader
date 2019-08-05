@@ -1,6 +1,6 @@
 {
   "name": "douyu-downloader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Download douyu.com record and live.",
   "bin": {
     "douyu-downloader": "dist/cli.js"
