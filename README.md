@@ -1,12 +1,12 @@
-#douyu-downloader
+# douyu-downloader
 
-###downlaod video from [v.douyu.com](https://v.douyu.com/)
+### downlaod video from [v.douyu.com](https://v.douyu.com/)
 
-##Installation
+## Installation
 
 `npm i douyu-downloader -g`
 
-##Options
+## Options
 ```
 --convert
   Default: true. If convert to format.
