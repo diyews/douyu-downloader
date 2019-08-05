@@ -6,6 +6,13 @@
 
 `npm i douyu-downloader -g`
 
+## Usage
+`douyu-dwonloader url [--options]`
+
+eg: download video that url is `https://v.douyu.com/show/0Q8mMY0Vd2e749Ad`
+
+`douyu-downloader https://v.douyu.com/show/0Q8mMY0Vd2e749Ad`
+
 ## Options
 ```
 --convert
