@@ -4,13 +4,13 @@
 
 ## Installation
 
-- package:
+1. Package:
 
-  `npm i douyu-downloader -g`
+   `npm i douyu-downloader -g`
+  
+2. Thrid party:
 
-- Thrid party:
-
-  FFmpeg is required. Download for your platform [here](https://ffmpeg.org/download.html). After downloaded, set environment variable `%FFMPEG_PATH%` that the directory includes `ffmpeg.exe`.
+   FFmpeg is required. Download for your platform [here](https://ffmpeg.org/download.html). After downloaded, set environment variable `%FFMPEG_PATH%` that the directory includes `ffmpeg.exe`.
 
 ## Usage
 `douyu-dwonloader url [--options]`
